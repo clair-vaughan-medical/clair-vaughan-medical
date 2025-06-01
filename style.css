@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.8;
+}
+
+header {
+  background: linear-gradient(to right, #5b9bd5, #b3d7ff);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+.hero-image img {
+  width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.content-box {
+  background-color: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.content-box h2 {
+  color: #5b9bd5;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #d84c6f;
+  margin-top: 1rem;
+}
+
+.link-box {
+  display: inline-block;
+  background-color: #e3eaf0;
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  color: #2b2b2b;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.link-box:hover {
+  background-color: #c0d9ef;
+}
+
+.image-side {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.image-side img {
+  width: 300px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.image-side .text {
+  flex: 1;
+}
+
+.schedule-section {
+  text-align: center;
+}
+
+.schedule-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.schedule-table th, .schedule-table td {
+  border: 1px solid #ccc;
+  padding: 0.6rem 1rem;
+}
+
+.schedule-table th {
+  background-color: #eaf3fb;
+  color: #333;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 2rem 1rem;
+  background-color: #f5f5f5;
+  margin-top: 2rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .image-side {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-side img {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .content-box {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .schedule-table th, .schedule-table td {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+}
